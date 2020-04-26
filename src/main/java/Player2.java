@@ -16,7 +16,9 @@ public class Player2 {
     public static void main(String[] args) throws IOException {
         ArrayList<String> hands = new ArrayList<>(Arrays.asList("rock", "paper", "scissors"));
         try (ServerSocket serverSocket = new ServerSocket(port)) {
-            System.out.println("Server is listening on port " + port);
+            System.out.println("Server is listening on port " + port)
+
+            ;
             int numberOfGames = 0;
             int gamesPlayed = 0;
             String selection = "";
